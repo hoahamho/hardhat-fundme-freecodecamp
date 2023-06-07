@@ -1,13 +1,19 @@
 # Hardhat FundMe FreeCodeCamp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is my first repo follow the Javascript Blockchain/Smart Contract FreeCodeCamp Course, lesson 7.
 
-Try running some of the following tasks:
+# Some note:
+
+1. The most headache problem i got is described and solve in this link: "https://ethereum.stackexchange.com/questions/129275/typeerror-cannot-read-property-length-of-undefined-while-deploying-using-ha"
+
+2. Still don't know the pros and conts between these two:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn hardhat deploy
+```
+
+VS
+
+```shell
+yarn hardhat run scripts
 ```
